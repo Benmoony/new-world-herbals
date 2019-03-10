@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@material-ui/core/Button';
 
+
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
@@ -11,12 +12,14 @@ const styles = theme => ({
   },
 });
 
+
 function NavComponent(props){
   const { classes } = props;
+
   return(
     <nav>
       <h1>New World Herbals</h1>
-      <Button varient="contained" color="primary" onlclick="navProducts()">
+      <Button varient="contained" color="primary" onlclick="{}">
         Products
       </Button>
       <Button varient="contained" color="primary" onlclick="navSubscribe()">
