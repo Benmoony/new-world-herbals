@@ -1,31 +1,25 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import logo from './logo.svg';
+import sage from './sage.jpg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
+
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <p>Oh boy a Test</p>
-
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h2>
+            Welcome to New Age Herbals
+          </h2>
+          <p>Here You'll find our products and information about our Herbal Concotions</p>
         </header>
+        <img src={sage} className="Sage-img"/>
       </div>
     );
   }
 }
+
 
 export default App;
